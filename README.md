@@ -1,8 +1,8 @@
 # FFD-Developer-test
 
-#The goals:
-
 1.Build a CRUD API using Serverless that can be deployed to AWS (think a ‘To do list’ for example). You should save data to a database and bonus points for using other AWS services to do anything interesting!
+
+https://32k1kiv5ke.execute-api.us-east-2.amazonaws.com
 
 2.React Native mobile app that will interact with the API you built above, state management to be included. 
 
