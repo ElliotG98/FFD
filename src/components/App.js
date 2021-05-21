@@ -1,8 +1,12 @@
-import ToDoList from './ToDoList';
+import ToDoList from './Get/ToDoList';
+import CreateItem from './CreateItem.js';
 
 function App() {
   return (
-    <ToDoList />
+    <div>
+      <ToDoList />
+      <CreateItem />
+    </div>
   );
 }
 

@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import '../styling/ToDoList.css';
+import '../../styling/ToDoList.css';
 import List from './List';
 import IfLoading from './IfLoading';
 

@@ -9,8 +9,9 @@ const List = (props) => {
             {tasks.Items.map((task) => {
                 return (
                     <li key={task.id} className="list">
+                        <span className='id-text'>{task.id}</span>
                         <span className='task-text'>{task.task} </span>
-                        <span className='task-completed'>{task.completed}</span>
+                        <div>{!task.id ? (<p>Completed</p>):(<p>Not Completed</p>)}</div>
                     </li>)
             })}
         </ul>
